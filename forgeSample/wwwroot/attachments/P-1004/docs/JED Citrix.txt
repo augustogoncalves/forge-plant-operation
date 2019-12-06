@@ -1,0 +1,56 @@
+JED RDT Access
+
+Internal
+[‎8/‎17/‎2016 10:21 AM] Mona Jalilzadeh: 
+user: pavana
+Pass: Pavan2015
+External
+Internal
+User robert.angus
+Pass: ADeskSFO2016%
+External Name
+robeanauto
+Jedunn01!
+hqdadesksp20104.external.jed
+External
+User: pavanaauto
+Pass: Autodesk360
+
+External Name
+robeanauto
+Jedunn01!
+Jedunn01!
+hqdadesksp20104.external.jed
+JEDUNN\Robert.Angus
+Jedunn01!
+RDT Machine Names
+
+[‎8/‎17/‎2016 11:04 AM] Mona Jalilzadeh: 
+DEBRBA-BNPRQ32.jedunn.int 
+
+
+http://hq-d-bdapp-01.jedunn.int/JEDunn.DunnPedia.BimServices/api/LensLitePublishedProject 
+(get project payload for Cost
+
+Dev Sandbos:
+HQDADESKSP01.external.jed 
+
+Another Test Box
+ADSKLENSRVT.jedunn.int 
+
+
+{
+  "Key": "0EE97B74-9845-46B0-AC2F-8B381C86C363",
+  "Token": "2XBM0M",
+  "Status": 200
+}
+
+{
+  "Key": "E6B32D3E-46FA-4D1B-B302-527303AE0B05",
+  "Token": "P97ZB0",
+  "Status": 200
+}
+
+{"Value1":"15070200","key":"447B96D4-4001-4F0C-904A-BDACC48693DF","token":"EQW7RG","user":"jed_bim_services"}
+
+{"Key":"A4ACBC83-E879-400E-985E-BA6032A85D4B","Token":"8040FB","Status":200}

@@ -1,0 +1,13 @@
+html body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#layout {
+    width: 100%;
+    height: calc(100vh);
+}
+
+#sidebar {
+    size: 35px;
+}
