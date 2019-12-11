@@ -146,9 +146,22 @@ function selectionChanged(v, e) {
                             break;
                     }
                 })
+                isSelecting = true;
                 searchAndSelectElements('3d', tags);
             });
+            break;
+        case '3d':
+            viewers[v].model.getBulkProperties(e.dbIdArray, ['Tag', 'LineNumberTag'], (elements) => {
+                var tags = [];
+                elements.forEach((ele) => {
+                    if (ele.properties.length != 1) return;
+                    var tag = getPropertyByName(ele.properties, ['Tag', 'LineNumberTag']);
+                    tags.push({ props: ['Tag'], value: tag });
 
+                })
+                isSelecting = true;
+                searchAndSelectElements('2d', tags);
+            });
             break;
     }
 }
