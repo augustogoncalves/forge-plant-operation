@@ -8,7 +8,7 @@ var config = {
             { type: 'main', size: '50%', style: pstyle + 'border-top: 0px;' },
             {
                 type: 'right', size: '50%', resizable: true, style: pstyle,
-                toolbar: {
+                /*toolbar: {
                     items: [
                         { type: 'spacer' },
                         { type: 'check', id: 'runTempCheck', text: 'Temperature', icon: 'fas fa-thermometer-half', tooltip: 'Run temperature check' }
@@ -21,7 +21,7 @@ var config = {
                         }
 
                     }
-                }
+                }*/
             },
             //{ type: 'bottom', size: '200px', resizable: true, style: pstyle }
         ],
