@@ -16,7 +16,7 @@
 // UNINTERRUPTED OR ERROR FREE.
 /////////////////////////////////////////////////////////////////////
 
-class IconsExtension extends Autodesk.Viewing.Extension {
+class IconMarkupExtension extends Autodesk.Viewing.Extension {
     constructor(viewer, options) {
         super(viewer, options);
         this._group = null;
@@ -144,4 +144,4 @@ class IconsExtension extends Autodesk.Viewing.Extension {
     }
 }
 
-Autodesk.Viewing.theExtensionManager.registerExtension('IconExtension', IconsExtension);
+Autodesk.Viewing.theExtensionManager.registerExtension('IconMarkupExtension', IconMarkupExtension);

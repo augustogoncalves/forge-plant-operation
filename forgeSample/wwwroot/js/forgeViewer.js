@@ -22,7 +22,7 @@ $(document).ready(function () {
         viewers['2d'].autocam.shotParams.destinationPercent = 3;
         viewers['2d'].autocam.shotParams.duration = 3;
 
-        viewers['3d'].loadExtension('IconExtension', {
+        viewers['3d'].loadExtension('IconMarkupExtension', {
             button: {
                 icon: 'fa-thermometer-half',
                 tooltip: 'Show Temperature'
