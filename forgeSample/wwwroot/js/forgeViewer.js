@@ -23,6 +23,10 @@ $(document).ready(function () {
         viewers['2d'].autocam.shotParams.duration = 3;
 
         viewers['3d'].loadExtension('IconExtension', {
+            button: {
+                icon: 'fa-thermometer-half',
+                tooltip: 'Show Temperature'
+            },
             icons: [
                 { dbId: 3944,   label: '300&#176;C', css: 'temperatureHigh fas fa-thermometer-full' },
                 { dbId: 721,    label: '356&#176;C', css: 'temperatureBorder temperatureHigh fas fa-thermometer-full' },
@@ -30,7 +34,8 @@ $(document).ready(function () {
                 { dbId: 563,                         css: 'temperatureYellow fas fa-exclamation-triangle' },
             ],
             onClick: (id) => {
-                console.log(id);
+                viewers['3d'].select(id);
+                viewers['3d'].utilities.fitToView();
                 switch (id){
                     case 563:
                         alert('Sensor offline');

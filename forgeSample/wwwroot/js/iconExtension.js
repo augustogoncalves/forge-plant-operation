@@ -65,8 +65,8 @@ class IconsExtension extends Autodesk.Viewing.Extension {
             this._button.setState(this._enabled ? 0 : 1);
 
         };
-        this._button.setToolTip('Show Temperature');
-        this._button.container.children[0].classList.add('fas', 'fa-thermometer-half');
+        this._button.setToolTip(this.options.button.tooltip);
+        this._button.container.children[0].classList.add('fas', this.options.button.icon);
         this._group.addControl(this._button);
     }
 
