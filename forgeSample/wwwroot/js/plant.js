@@ -169,6 +169,7 @@ function selectionChanged(v, e) {
 function searchAndSelectElements(v, tags) {
     var idsToSelect = []
     var searchCount = 0;
+    if (tags.length == 0) { isSelecting = false; return; }
     tags.forEach((tag) => {
         searchCount++;
         viewers[v].search(tag.value, (dbIds) => {
