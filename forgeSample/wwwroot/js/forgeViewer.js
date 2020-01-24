@@ -41,7 +41,9 @@ $(document).ready(function () {
                         alert('Sensor offline');
                 }
             }
-        })
+        });
+
+        viewers['3d'].loadExtension('ProcessFlowExtension');
     });
 });
 
